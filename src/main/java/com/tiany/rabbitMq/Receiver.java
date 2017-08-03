@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by tiany on 2017/7/19.
- */
+// */
 @Component
 public class Receiver {
     private CountDownLatch latch = new CountDownLatch(1);
