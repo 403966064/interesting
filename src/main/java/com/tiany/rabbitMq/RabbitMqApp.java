@@ -52,4 +52,5 @@ public class RabbitMqApp {
     public static void main(String[] args) {
         SpringApplication.run(RabbitMqApp.class, args);
     }
+
 }
