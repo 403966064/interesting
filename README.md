@@ -15,3 +15,8 @@
  
  用redis 来实现消息队列
  用rabbitMq 来实现消息队列
+ 
+ 
+ 2017-08-02
+ 真是想到那就学那
+ 今天在读算法<<算法（第四版）DAlgorithms.-.Fourth.Edition.谢路云>>这本书
