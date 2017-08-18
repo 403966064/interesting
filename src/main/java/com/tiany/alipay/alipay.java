@@ -4,7 +4,6 @@ package com.tiany.alipay;
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
-import com.alipay.api.domain.AlipayTradePagePayModel;
 import com.alipay.api.request.AlipayTradePagePayRequest;
 
 /**
@@ -50,13 +49,13 @@ public class alipay {
 //    alipayRequest.setNotifyUrl(AlipayConfig.notify_url);notify_url
 
         //商户订单号，商户网站订单系统中唯一订单号，必填
-        String out_trade_no = "111111111";
+        String out_trade_no = "1231231231";
         //付款金额，必填
         String total_amount = "10.00";
         //订单名称，必填
-        String subject = "测试标题";
+        String subject = "潮热讽风的";
         //商品描述，可空
-        String body = "测试订单";
+        String body = "差点发生大幅度改动";
         alipayRequest.setBizContent("{\"out_trade_no\":\""+ out_trade_no +"\","
                 + "\"total_amount\":\""+ total_amount +"\","
                 + "\"subject\":\""+ subject +"\","
