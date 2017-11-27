@@ -13,10 +13,10 @@ public class Beetle extends Insect {
 
     private static int x2 = printInit("static Beetle.x2 initalized");
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Beetle constructor");
         Beetle beetle = new Beetle();
-    }*/
+    }
 
     /***
      * Beetle 的main 访问
